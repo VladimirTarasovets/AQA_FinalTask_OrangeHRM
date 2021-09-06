@@ -45,14 +45,15 @@ public class AddAssignLeaveTest extends BeAfAll {
         leavePage.addToDate("2021-10-08");
         leavePage.addComment("Comment");
         leavePage.clickAssign();
+        leavePage.clickOkAssign();
         Assertions.assertTrue(leavePage.verificationSuccessfullyAssigned(), "Нету подтверждения Successfully Assigned");
 
     }
 
     @Flaky
     @Severity(SeverityLevel.NORMAL)
-    @Description("Тест Assign Leave")
-    @Feature("Тест на удаление Assign Leave")
+    @Description("Тест Employee")
+    @Feature("Тест на удаление Employee")
     @Issue("FT013")
     @Link("https://github.com/VladimirTarasovets")
     @Owner("Vladimir Tarasovets")
