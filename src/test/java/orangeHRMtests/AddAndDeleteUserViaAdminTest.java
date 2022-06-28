@@ -25,10 +25,6 @@ public class AddAndDeleteUserViaAdminTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.CRITICAL)
     @Description("Тест Add user")
-    @Feature("Тест на добавление пользователя (Admin \\ Add user)")
-    @Issue("FT006")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(1)
     @DisplayName("Тест на добавление пользователя (Admin \\ Add user)")
@@ -57,10 +53,6 @@ public class AddAndDeleteUserViaAdminTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.CRITICAL)
     @Description("Тест Add user")
-    @Feature("Тест на удаление пользователя (Admin \\ Add user)")
-    @Issue("FT007")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(2)
     @DisplayName("Тест на удаление пользователя (Admin \\ Delete user)")
@@ -79,10 +71,6 @@ public class AddAndDeleteUserViaAdminTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.CRITICAL)
     @Description("Тест Employee")
-    @Feature("Тест на удаление пользователя Employee")
-    @Issue("FT008")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(3)
     @DisplayName("Тест на удаление пользователя Employee")

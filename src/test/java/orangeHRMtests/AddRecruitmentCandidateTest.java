@@ -16,10 +16,6 @@ public class AddRecruitmentCandidateTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Recruitment Candidate")
-    @Feature("Тест на добавление Recruitment Candidate")
-    @Issue("FT014")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(1)
     @DisplayName("Тест на добавление Recruitment Candidate")
@@ -45,10 +41,6 @@ public class AddRecruitmentCandidateTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Recruitment Candidate")
-    @Feature("Тест на удаление Recruitment Candidate")
-    @Issue("FT015")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(2)
     @DisplayName("Тест на удаление Recruitment Candidate")

@@ -17,10 +17,6 @@ public class AddAndDeleteThreeJobTitlesTest extends BeAfAll {
 
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Job Title")
-    @Feature("Тест на добавление 3 Job Title")
-    @Issue("FT004")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(1)
     @DisplayName("Тест на добавление 3 Job Title")
@@ -33,10 +29,6 @@ public class AddAndDeleteThreeJobTitlesTest extends BeAfAll {
 
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Job Title")
-    @Feature("Тест на удаление 3 Job Title")
-    @Issue("FT005")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(2)
     @DisplayName("Тест на удаление 3 Job Title")

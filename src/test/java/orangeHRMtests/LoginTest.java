@@ -19,10 +19,6 @@ public class LoginTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.BLOCKER)
     @Description("Тест учетной записи")
-    @Feature("Вход в учетную запись")
-    @Issue("FT001")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @DisplayName("Тест авторизации на сайте")
     public void testLogin() throws IOException {

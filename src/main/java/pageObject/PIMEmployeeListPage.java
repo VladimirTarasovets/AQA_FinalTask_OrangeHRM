@@ -78,99 +78,71 @@ public class PIMEmployeeListPage {
     @Step("Получение значения First Name")
     public void getValueFirstName() {
         firstName.should(exist);
-        String fName = firstName.getAttribute("value");
-        System.out.println("First Name " + "- " + fName);
     }
 
     @Step("Получение значения Middle Name")
     public void getValueMiddleName() {
         middleName.should(exist);
-        String mName = middleName.getAttribute("value");
-        System.out.println("Middle Name " + "- " + mName);
     }
 
     @Step("Получение значения Last Name")
     public void getValueLastName() {
         lastName.should(exist);
-        String lName = lastName.getAttribute("value");
-        System.out.println("Last Name " + "- " + lName);
     }
 
     @Step("Получение значения Employee Id")
     public void getValueEmployeeId() {
         employeeId.should(exist);
-        String eId = employeeId.getAttribute("value");
-        System.out.println("Employee Id " + "- " + eId);
     }
 
     @Step("Получение значения Driver's License Number")
     public void getValueDriversLicenseNumber() {
         driversLicenseNumber.should(exist);
-        String dLicNo = driversLicenseNumber.getAttribute("value");
-        System.out.println("Driver's License Number " + "- " + dLicNo);
     }
 
     @Step("Получение значения SSN Number")
     public void getValueNumberSSN() {
         numberSSN.should(exist);
-        String numSSN = numberSSN.getAttribute("value");
-        System.out.println("SSN Number " + "- " + numSSN);
     }
 
     @Step("Получение значения Other Id")
     public void getValueOtherId() {
         otherID.should(exist);
-        String oId = otherID.getAttribute("value");
-        System.out.println("Other Id " + "- " + oId);
     }
 
     @Step("Получение значения License Expiry Date")
     public void getValueLicenseExpiryDate() {
         licenseExpiryDate.should(exist);
-        String licExpDate = licenseExpiryDate.getAttribute("value");
-        System.out.println("License Expiry Date " + "- " + licExpDate);
     }
 
     @Step("Получение значения SIN Number")
     public void getValueSINNumber() {
         numberSIN.should(exist);
-        String sinNumber = numberSIN.getAttribute("value");
-        System.out.println("SIN Number " + "- " + sinNumber);
     }
 
     @Step("Получение значения Nationality")
     public void getValueNationality() {
         nationality.should(exist);
-        String nation = nationality.getAttribute("value");
-        System.out.println("Nationality " + "- " + nation);
     }
 
     @Step("Получение значения Marital Status")
     public void getValueMaritalStatus() {
         maritalStatus.should(exist);
-        String maritalStat = maritalStatus.getAttribute("value");
-        System.out.println("Marital Status " + "- " + maritalStat);
     }
 
     @Step("Получение значения Date of Birth")
     public void getValueDatOfBirth() {
         dateOfBirth.should(exist);
-        String dateOfBir = dateOfBirth.getAttribute("value");
-        System.out.println("Date of Birth " + "- " + dateOfBir);
     }
 
     @Step("Получение значения Nick Name")
     public void getValueNickName() {
         nickName.should(exist);
-        String nickN = nickName.getAttribute("value");
-        System.out.println("Nick Name " + "- " + nickN);
     }
 
     @Step("Получение значения Military Service")
     public void getValueMilitaryService() {
         militaryService.should(exist);
-        String militaryServ = militaryService.getAttribute("value");
-        System.out.println("Military Service " + "- " + militaryServ);
     }
 
     @Step("Проверка значения Last Name")

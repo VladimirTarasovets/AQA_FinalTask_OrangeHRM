@@ -19,10 +19,6 @@ public class LogoutTest extends BeAfAll {
 
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест учетной записи")
-    @Feature("Выход из учетной записи")
-    @Issue("FT018")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @DisplayName("Выход из учетной записи")
     public void logOut() throws IOException {

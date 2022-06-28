@@ -17,10 +17,6 @@ public class CheckForExistenceDashboardElementsTest extends BeAfAll {
 
     @Severity(SeverityLevel.MINOR)
     @Description("Тест Dashboard")
-    @Feature("Проверка Dashboard на присутствие элементов")
-    @Issue("FT016")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @DisplayName("Проверка Dashboard на присутствие элементов")
     public void checkForExistenceDashboardElements() throws IOException {

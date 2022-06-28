@@ -23,10 +23,6 @@ public class AddAssignLeaveTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Assign Leave")
-    @Feature("Тест на добавление Assign Leave")
-    @Issue("FT012")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(1)
     @DisplayName("Тест на добавление Assign Leave")
@@ -45,7 +41,7 @@ public class AddAssignLeaveTest extends BeAfAll {
         leavePage.addToDate("2021-10-08");
         leavePage.addComment("Comment");
         leavePage.clickAssign();
-        leavePage.clickOkAssign();
+//        leavePage.clickOkAssign();
         Assertions.assertTrue(leavePage.verificationSuccessfullyAssigned(), "Нету подтверждения Successfully Assigned");
 
     }
@@ -53,10 +49,6 @@ public class AddAssignLeaveTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Employee")
-    @Feature("Тест на удаление Employee")
-    @Issue("FT013")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(2)
     @DisplayName("Тест на удаление пользователя Employee")

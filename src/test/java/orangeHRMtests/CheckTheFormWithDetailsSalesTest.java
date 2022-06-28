@@ -17,10 +17,6 @@ public class CheckTheFormWithDetailsSalesTest extends BeAfAll {
 
     @Severity(SeverityLevel.MINOR)
     @Description("Тест PIM")
-    @Feature("Проверка PIM с Sales")
-    @Issue("FT017")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @DisplayName("Проверка PIM с Sales")
     public void checkTheFormWithDetailsSales() throws IOException {

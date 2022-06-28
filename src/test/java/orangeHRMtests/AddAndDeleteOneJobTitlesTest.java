@@ -19,10 +19,6 @@ public class AddAndDeleteOneJobTitlesTest extends BeAfAll {
 
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Job Title")
-    @Feature("Тест на добавление 1 Job Title")
-    @Issue("FT002")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @DisplayName("Тест на добавление 1 Job Title")
     public void addJobTitles() throws IOException {
@@ -40,10 +36,6 @@ public class AddAndDeleteOneJobTitlesTest extends BeAfAll {
 
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест Job Title")
-    @Feature("Тест на удаление 1 Job Title")
-    @Issue("FT003")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @DisplayName("Тест на удаление 1 Job Title")
     public void deleteJobTitles() throws IOException {

@@ -25,10 +25,6 @@ public class AddAndDeleteUserViaPIMTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.CRITICAL)
     @Description("Тест Add Employee")
-    @Feature("Тест на добавление пользователя (PIM \\ Add Employee)")
-    @Issue("FT009")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(1)
     @DisplayName("Тест на добавление пользователя (PIM \\ Add Employee)")
@@ -54,10 +50,6 @@ public class AddAndDeleteUserViaPIMTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.CRITICAL)
     @Description("Тест Add Employee")
-    @Feature("Тест на удаление пользователя (PIM \\ Add Employee)")
-    @Issue("FT010")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(2)
     @DisplayName("Тест на удаление пользователя (Admin \\ Delete user)")
@@ -76,10 +68,6 @@ public class AddAndDeleteUserViaPIMTest extends BeAfAll {
     @Flaky
     @Severity(SeverityLevel.CRITICAL)
     @Description("Тест Employee")
-    @Feature("Тест на удаление пользователя Employee")
-    @Issue("FT011")
-    @Link("https://github.com/VladimirTarasovets")
-    @Owner("Vladimir Tarasovets")
     @Test
     @Order(3)
     @DisplayName("Тест на удаление пользователя Employee")
